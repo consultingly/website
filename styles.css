@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home-icon {
+    background-color: #ffcc00;
+    padding: 15px 20px; /* Reduced padding */
+    text-align: left;
+    min-height: 1vh;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.home-icon h1 {
+    font-size: 3rem;
+    margin: 5px 0; /* Reduced margin */
+    color: #000;
+}
+
+.header {
+    background-color: #ffcc00;
+    padding: 15px 20px; /* Reduced padding */
+    text-align: center;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 5px 0; /* Reduced margin */
+    color: #000;
+}
+
+.header h1 img {
+    width: 75%;
+    max-width: 500px;
+}
+
+.black-bar {
+    background-color: #000;
+    text-align: center;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-bar p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: plain;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px; /* Reduced padding */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduced space between text blocks */
+    margin: 10px 0; /* Reduced margin */
+}
+
+.card {
+    background-color: #fff;
+    padding: 5px 0; /* Reduced padding */
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 5px 0; /* Reduced margin */
+    color: #000;
+}
+
+.card p {
+    font-size: 1.2rem;
+    margin: 5px 0; /* Reduced margin */
+    color: #333;
+}
+
+.footer {
+    background-color: #ffcc00;
+    height: 100px; /* Set the height to 100px */
+    width: 100%; /* Yellow bar spans the entire width */
+    display: flex;
+    justify-content: center; /* Centers the container inside the yellow bar */
+    align-items: center; /* Vertically centers the content */
+    box-sizing: border-box;
+}
+
+.footer .container {
+    max-width: 800px; /* Consistent width with other content */
+    width: 100%;
+    padding: 0 20px; /* Matches padding to align with content above */
+}
+
+.footer h2, .footer p, .footer a {
+    margin: 0; /* No extra margins */
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.bottom-black-bar {
+    background-color: #000;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-black-bar p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: plain;
+}
+
+#tawk_66e7fbb1ea492f34bc146277 {
+    z-index: 9999;
+}
+
+
+
+
+
